@@ -1,0 +1,341 @@
+2026-04-14 21:44:15 - vacancy_search - INFO - main:300 - ==================================================
+2026-04-14 21:44:15 - vacancy_search - INFO - main:301 - Запуск приложения Vacancy Search
+2026-04-14 21:44:15 - vacancy_search - INFO - main:302 - ==================================================
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:62 - ==================================================
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:63 - Начало загрузки свежих данных
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_db_params:30 - Параметры БД: host=localhost, port=5432, database=hh_vacancies
+2026-04-14 21:44:25 - vacancy_search - INFO - create_database:42 - Проверка существования базы данных 'hh_vacancies'
+2026-04-14 21:44:25 - vacancy_search - INFO - create_database:56 - База данных 'hh_vacancies' уже существует
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_db_params:30 - Параметры БД: host=localhost, port=5432, database=hh_vacancies
+2026-04-14 21:44:25 - vacancy_search - INFO - __init__:81 - Успешное подключение к базе данных
+2026-04-14 21:44:25 - vacancy_search - INFO - create_tables:104 - Таблицы уже существуют. Пропускаем создание.
+2026-04-14 21:44:25 - vacancy_search - INFO - __init__:22 - Инициализирован HHAPIClient с таймаутом 10с
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 1740
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/1740
+2026-04-14 21:44:25 - vacancy_search - INFO - get_company:44 - Компания 1740 успешно загружена
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 3529
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/3529
+2026-04-14 21:44:25 - vacancy_search - INFO - get_company:44 - Компания 3529 успешно загружена
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 39305
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/39305
+2026-04-14 21:44:25 - vacancy_search - INFO - get_company:44 - Компания 39305 успешно загружена
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 4181
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/4181
+2026-04-14 21:44:25 - vacancy_search - INFO - get_company:44 - Компания 4181 успешно загружена
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 80
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/80
+2026-04-14 21:44:25 - vacancy_search - INFO - get_company:44 - Компания 80 успешно загружена
+2026-04-14 21:44:25 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 15478
+2026-04-14 21:44:25 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/15478
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 15478 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 3776
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/3776
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 3776 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 1057
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/1057
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 1057 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 78638
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/78638
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 78638 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 2381
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/2381
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 2381 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 9498120
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/9498120
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 9498120 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:81 - Загрузка компании 87021
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/87021
+2026-04-14 21:44:26 - vacancy_search - INFO - get_company:44 - Компания 87021 успешно загружена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Яндекс (ID=1740) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания СБЕР (ID=3529) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Газпром нефть (ID=39305) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Банк ВТБ (ПАО) (ID=4181) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Альфа-Банк (ID=80) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания VK (ID=15478) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания МТС (ID=3776) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Лаборатория Касперского (ID=1057) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Т-Банк (ID=78638) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Softline (ID=2381) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания Яндекс Команда для бизнеса (ID=9498120) добавлена
+2026-04-14 21:44:26 - vacancy_search - DEBUG - insert_companies:149 - Компания RWB (Wildberries & Russ) (ID=87021) добавлена
+2026-04-14 21:44:26 - vacancy_search - INFO - insert_companies:154 - Добавлено 12 компаний
+2026-04-14 21:44:26 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Яндекс
+2026-04-14 21:44:26 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 1740, нужно 10 шт.
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131265831 с зарплатой {'from': 47000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132114559 с зарплатой {'from': 40000, 'to': 52000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130938762 с зарплатой {'from': 70000, 'to': 105000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131542090 с зарплатой {'from': 36000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131924718 с зарплатой {'from': 60000, 'to': 90000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131009430 с зарплатой {'from': 40000, 'to': 52500, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131949325 с зарплатой {'from': 55000, 'to': 65550, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:26 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130222058 с зарплатой {'from': 75000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 1: получено 2 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 2: получено 2 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130938762 с зарплатой {'from': 70000, 'to': 105000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131542090 с зарплатой {'from': 36000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 1740
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Модератор сервиса Авто.ру (ID=131265831) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по контролю качества сервиса (ID=132114559) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер по работе с отелями в Яндекс Путешествия (ID=130938762) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Ретушер (ID=131542090) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер подбора недвижимости в Яндекс Недвижимость (ID=131924718) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по контролю качества (ID=131009430) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист поддержки в Яндекс Путешествия (ID=131949325) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Секретарь-администратор (ID=130222058) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер по работе с отелями в Яндекс Путешествия (ID=130938762) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Ретушер (ID=131542090) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 1740
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании СБЕР
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 3529, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132076782 с зарплатой {'from': 43200, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131787057 с зарплатой {'from': 62600, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132034992 с зарплатой {'from': 365400, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132136958 с зарплатой {'from': 124000, 'to': 124000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131769968 с зарплатой {'from': 79000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131619769 с зарплатой {'from': 207000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132107836 с зарплатой {'from': 54200, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132116908 с зарплатой {'from': 92700, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132046031 с зарплатой {'from': 50000, 'to': 70000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131494112 с зарплатой {'from': 83100, 'to': 83100, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 3529
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист разметки данных GigaChat (ID=132076782) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист отдела документооборота (ID=131787057) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Продуктовый маркетолог B2C (ID=132034992) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Секретарь руководителя (ID=132136958) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист входящих обращений (ID=131769968) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Персональный менеджер Сбер Премьер (ID=131619769) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Водитель мобильного офиса (ID=132107836) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Эксперт по коммуникациям и событийным проектам (ID=132116908) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Стажер Data Scientist (AI/ML/B2C) (ID=132046031) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Водитель-инкассатор (ID=131494112) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 3529
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Газпром нефть
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 39305, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132126678 с зарплатой {'from': 92000, 'to': 120000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131671399 с зарплатой {'from': None, 'to': 78000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132092066 с зарплатой {'from': 70900, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132091404 с зарплатой {'from': 88000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132093791 с зарплатой {'from': 234900, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131979964 с зарплатой {'from': 78000, 'to': 87000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131818717 с зарплатой {'from': 95000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131003864 с зарплатой {'from': 67000, 'to': 76000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131955097 с зарплатой {'from': 95000, 'to': 103000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132015088 с зарплатой {'from': 84000, 'to': 121000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 39305
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Старший диспетчер (ID=132126678) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Диспетчер (ID=131671399) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по сервисному обслуживанию офиса (ID=132092066) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Начинающий специалист автотранспортного обеспечения (ID=132091404) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Мастер по эксплуатации оборудования малой энергетики (ID=132093791) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по учету электрооборудования (Excel) (ID=131979964) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по приему первичной документации (ID=131818717) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Оператор нефтебазы (ID=131003864) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Электрогазосварщик (ID=131955097) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Слесарь-ремонтник, г. Омск (ID=132015088) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 39305
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Банк ВТБ (ПАО)
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 4181, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132121350 с зарплатой {'from': 150000, 'to': 150000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131702574 с зарплатой {'from': 81000, 'to': 81000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132099376 с зарплатой {'from': 70000, 'to': 90000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132100508 с зарплатой {'from': 80000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132115487 с зарплатой {'from': 70000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132108455 с зарплатой {'from': 59000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132112896 с зарплатой {'from': 72000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132135045 с зарплатой {'from': 98000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131734918 с зарплатой {'from': 63000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 128790762 с зарплатой {'from': 64000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 4181
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Младший специалист по направлению корпоративно-инвестиционного бизнеса в ВТБ (ID=132121350) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Стажер в Аналитический департамент, ВТБ Юниор (ID=131702574) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Банковский специалист (ID=132099376) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Банковский сотрудник (ID=132100508) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Клиентский менеджер отделения банка (ID=132115487) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Стажер/Начинающий специалист по работе с физическими лицами (ID=132108455) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Клиентский менеджер в отделение банка (ID=132112896) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Главный специалист по урегулированию задолженности (ID=132135045) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Клиентский менеджер на точку обслуживания (ID=131734918) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Клиентский менеджер в точке обслуживания (ID=128790762) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 4181
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Альфа-Банк
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 80, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132132406 с зарплатой {'from': 25000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132115891 с зарплатой {'from': 64100, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132135249 с зарплатой {'from': 65000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131812292 с зарплатой {'from': 25000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132116290 с зарплатой {'from': 60000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132128574 с зарплатой {'from': 170000, 'to': 255000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132112389 с зарплатой {'from': 160000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132108816 с зарплатой {'from': 49000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132061004 с зарплатой {'from': 65000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132133810 с зарплатой {'from': 115000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 80
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист контакт-центра в чате (ID=132132406) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист дистанционной поддержки клиентов в ЧАТе, г. Самара (ID=132115891) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер по подбору персонала (ID=132135249) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист дистанционного контакт-центра в чате (ID=131812292) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Эксперт по массовому подбору (ID=132116290) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Начальник отдела (ID=132128574) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Начальник отдела (ID=132112389) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Охранник (ID=132108816) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист поддержки клиентов в ЧАТе (ID=132061004) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Ведущий менеджер по оформлению кредитных сделок (Петербургская улица, 1) (ID=132133810) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 80
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании VK
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 15478, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 2 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131677506 с зарплатой {'from': None, 'to': 140000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131393857 с зарплатой {'from': None, 'to': 140000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:94 - Достигнут последняя страница (0)
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 2 вакансий для компании 15478
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Инженер-энергетик в VK (ID=131677506) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Инженер по вентиляции и кондиционированию в ЦОД (ID=131393857) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 2 вакансий для компании 15478
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании МТС
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 3776, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132109153 с зарплатой {'from': 87000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131403609 с зарплатой {'from': 54000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132027024 с зарплатой {'from': 60000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130541043 с зарплатой {'from': 56500, 'to': 63500, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 126305051 с зарплатой {'from': 53000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132059819 с зарплатой {'from': 51000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132089694 с зарплатой {'from': 72000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132101415 с зарплатой {'from': 120000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131074423 с зарплатой {'from': None, 'to': 170000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 126554255 с зарплатой {'from': 35000, 'to': 52000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 3776
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Аналитик по планированию и управлению ресурсами (ID=132109153) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по кадровому администрированию (ID=131403609) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Оператор ЧАТ МТС (без продаж) (ID=132027024) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Оператор на чат МТС Банка (ID=130541043) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Оператор контактного центра (ID=126305051) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Водитель автомобиля (ID=132059819) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по технологической аренде (ID=132089694) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Ведущий пресейл-менеджер ИСС (ID=132101415) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Аналитик данных (ID=131074423) добавлена
+2026-04-14 21:44:27 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Консультант онлайн чата (ID=126554255) добавлена
+2026-04-14 21:44:27 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 3776
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Лаборатория Касперского
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 1057, нужно 10 шт.
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 0 вакансий
+2026-04-14 21:44:27 - vacancy_search - DEBUG - get_vacancies:94 - Достигнут последняя страница (0)
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:102 - Загружено 0 вакансий для компании 1057
+2026-04-14 21:44:27 - vacancy_search - WARNING - load_fresh_data:109 - Для компании Лаборатория Касперского не найдено вакансий с зарплатой в рублях
+2026-04-14 21:44:27 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Т-Банк
+2026-04-14 21:44:27 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 78638, нужно 10 шт.
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132094455 с зарплатой {'from': 76000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131605530 с зарплатой {'from': 15000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131265942 с зарплатой {'from': 101000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130788586 с зарплатой {'from': 60000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131265608 с зарплатой {'from': 84000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130503745 с зарплатой {'from': 63000, 'to': 90000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131266103 с зарплатой {'from': 79000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131025745 с зарплатой {'from': 112000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131327473 с зарплатой {'from': 73000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 130789142 с зарплатой {'from': 60000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 78638
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Региональный менеджер по документообороту (ID=132094455) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Исполнитель матчинга товаров (ID=131605530) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по бронированию авиабилетов (ID=131265942) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по документообороту (ID=130788586) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по бронированию авиабилетов (ID=131265608) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Младший специалист по фрод-мониторингу (ID=130503745) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по бронированию авиабилетов (ID=131266103) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер по работе с физическими лицами (ID=131025745) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по бронированию авиабилетов (ID=131327473) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист обработки корреспонденции (ID=130789142) добавлена
+2026-04-14 21:44:28 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 78638
+2026-04-14 21:44:28 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Softline
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 2381, нужно 10 шт.
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 2 вакансий
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131394830 с зарплатой {'from': 35000, 'to': 55000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131571695 с зарплатой {'from': 180000, 'to': 250000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:94 - Достигнут последняя страница (0)
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:102 - Загружено 2 вакансий для компании 2381
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер организации обучения Академии (г. Воронеж) (ID=131394830) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Программист 1С в Академию Softline (ID=131571695) добавлена
+2026-04-14 21:44:28 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 2 вакансий для компании 2381
+2026-04-14 21:44:28 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании Яндекс Команда для бизнеса
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 9498120, нужно 10 шт.
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 125501952 с зарплатой {'from': 30000, 'to': 77000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 125500601 с зарплатой {'from': 30000, 'to': 77000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132030304 с зарплатой {'from': 95000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 125490383 с зарплатой {'from': 30000, 'to': 77000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132089751 с зарплатой {'from': None, 'to': 80000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132050561 с зарплатой {'from': 28000, 'to': None, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131888996 с зарплатой {'from': 83250, 'to': 95730, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132112429 с зарплатой {'from': None, 'to': 70000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131906920 с зарплатой {'from': 37500, 'to': 45000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131931707 с зарплатой {'from': None, 'to': 130000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 9498120
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист поддержки Яндекс (письменные обращения) (ID=125501952) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер чат-поддержки Яндекс Go (ID=125500601) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер по логистике в Яндекс Маркет (ID=132030304) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист письменной поддержки Яндекс (ID=125490383) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер по логистике в Яндекс Маркет (ID=132089751) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Менеджер чат-поддержки Яндекс Маркета (ID=132050561) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист удаленной технической поддержки Автономного транспорта (ID=131888996) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по логистике в Яндекс. Маркет (ID=132112429) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Младший специалист по тендерам (ID=131906920) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Key Account Manager (ID=131931707) добавлена
+2026-04-14 21:44:28 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 9498120
+2026-04-14 21:44:28 - vacancy_search - INFO - load_fresh_data:99 - Загрузка вакансий для компании RWB (Wildberries & Russ)
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 87021, нужно 10 шт.
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 10 вакансий
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132124694 с зарплатой {'from': 200000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132069462 с зарплатой {'from': 100000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132133574 с зарплатой {'from': 100000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132070308 с зарплатой {'from': 90000, 'to': 110000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132093278 с зарплатой {'from': None, 'to': 100000, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132139935 с зарплатой {'from': None, 'to': 250000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131940022 с зарплатой {'from': 174000, 'to': 174000, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132000678 с зарплатой {'from': None, 'to': 206897, 'currency': 'RUR', 'gross': True}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 131963762 с зарплатой {'from': 150000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:75 - Страница 1: получено 1 вакансий
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 132069462 с зарплатой {'from': 100000, 'to': None, 'currency': 'RUR', 'gross': False}
+2026-04-14 21:44:28 - vacancy_search - INFO - get_vacancies:102 - Загружено 10 вакансий для компании 87021
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Водитель на автомобиле компании категории В WILDBERRIES (ID=132124694) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Сотрудник сортировочного центра Wildberries (ID=132069462) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Сотрудник сортировочного центра Wildberries (ID=132133574) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Сотрудник сортировочного центра (кладовщик) Wildberries (ID=132070308) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Оператор по работе с обращениями (чаты), WB банк (ID=132093278) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Ведущий инженер службы строительного контроля (ID=132139935) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Региональный руководитель по обучению (Сибирь и ДВ) (ID=131940022) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Специалист по снабжению (ID=132000678) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Кладовщик/Сотрудник склада КБТ (ID=131963762) добавлена
+2026-04-14 21:44:28 - vacancy_search - DEBUG - insert_vacancies:189 - Вакансия Сотрудник сортировочного центра Wildberries (ID=132069462) добавлена
+2026-04-14 21:44:28 - vacancy_search - INFO - insert_vacancies:194 - Добавлено 10 вакансий для компании 87021
+2026-04-14 21:44:28 - vacancy_search - DEBUG - close:107 - Закрытие HHAPIClient
+2026-04-14 21:44:28 - vacancy_search - INFO - close:198 - Закрытие соединения с базой данных
+2026-04-14 21:44:28 - vacancy_search - INFO - load_fresh_data:123 - Загрузка завершена: 12 компаний, 94 вакансий
+2026-04-14 21:44:28 - vacancy_search - DEBUG - get_db_params:30 - Параметры БД: host=localhost, port=5432, database=hh_vacancies
+2026-04-14 21:44:28 - vacancy_search - INFO - __init__:81 - Успешное подключение к базе данных
+2026-04-14 21:44:28 - vacancy_search - INFO - show_interactive_menu:153 - Запуск интерактивного меню
+2026-04-14 21:44:32 - vacancy_search - DEBUG - show_interactive_menu:179 - Выполнен запрос 1
+2026-04-14 21:44:37 - vacancy_search - DEBUG - show_interactive_menu:193 - Выполнен запрос 2
+2026-04-14 21:44:40 - vacancy_search - DEBUG - show_interactive_menu:198 - Средняя зарплата: 92758.79591836735
+2026-04-14 21:44:43 - vacancy_search - DEBUG - show_interactive_menu:212 - Выполнен запрос 4
+2026-04-14 21:44:55 - vacancy_search - INFO - show_interactive_menu:228 - Поиск по ключевому слову 'Главный': найдено 1 вакансий
+2026-04-14 21:51:22 - vacancy_search - INFO - main:324 - ==================================================
+2026-04-14 21:51:22 - vacancy_search - INFO - main:325 - Запуск приложения Vacancy Search
+2026-04-14 21:51:22 - vacancy_search - INFO - main:326 - ==================================================
+2026-04-14 21:51:25 - vacancy_search - INFO - use_existing_db:130 - Подключение к существующей БД
+2026-04-14 21:51:25 - vacancy_search - DEBUG - get_db_params:30 - Параметры БД: host=localhost, port=5432, database=hh_vacancies
+2026-04-14 21:51:25 - vacancy_search - INFO - __init__:78 - Успешное подключение к базе данных
+2026-04-14 21:51:25 - vacancy_search - INFO - use_existing_db:142 - Существующая БД: 12 компаний, 98 вакансий
+2026-04-14 21:51:25 - vacancy_search - INFO - close:195 - Закрытие соединения с базой данных
+2026-04-14 21:51:25 - vacancy_search - DEBUG - get_db_params:30 - Параметры БД: host=localhost, port=5432, database=hh_vacancies
+2026-04-14 21:51:25 - vacancy_search - INFO - __init__:78 - Успешное подключение к базе данных
+2026-04-14 21:51:25 - vacancy_search - INFO - show_interactive_menu:154 - Запуск интерактивного меню
+2026-04-14 21:51:37 - vacancy_search - DEBUG - show_interactive_menu:269 - Средняя зарплата для компании 3776: 77050.0
+2026-04-14 21:51:46 - vacancy_search - DEBUG - show_interactive_menu:287 - Выполнено сравнение зарплат по 11 компаниям
+2026-04-14 21:51:55 - vacancy_search - INFO - show_interactive_menu:293 - Завершение работы программы
+2026-04-14 21:51:55 - vacancy_search - INFO - close:195 - Закрытие соединения с базой данных

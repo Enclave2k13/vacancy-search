@@ -1,0 +1,16 @@
+2026-04-14 22:02:08 - vacancy_search - INFO - __init__:22 - Инициализирован HHAPIClient с таймаутом 5с
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_company:35 - Запрос компании: https://api.hh.ru/employers/123
+2026-04-14 22:02:08 - vacancy_search - INFO - get_company:44 - Компания 123 успешно загружена
+2026-04-14 22:02:08 - vacancy_search - INFO - __init__:22 - Инициализирован HHAPIClient с таймаутом 5с
+2026-04-14 22:02:08 - vacancy_search - INFO - __init__:22 - Инициализирован HHAPIClient с таймаутом 5с
+2026-04-14 22:02:08 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 123, нужно 10 шт.
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 2 вакансий
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 1 с зарплатой {'from': 100000, 'currency': 'RUR'}
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_vacancies:94 - Достигнут последняя страница (0)
+2026-04-14 22:02:08 - vacancy_search - INFO - get_vacancies:102 - Загружено 1 вакансий для компании 123
+2026-04-14 22:02:08 - vacancy_search - INFO - __init__:22 - Инициализирован HHAPIClient с таймаутом 5с
+2026-04-14 22:02:08 - vacancy_search - INFO - get_vacancies:56 - Начало загрузки вакансий для компании 123, нужно 10 шт.
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_vacancies:75 - Страница 0: получено 1 вакансий
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_vacancies:88 - Добавлена вакансия 1 с зарплатой {'from': 100000, 'currency': 'RUR'}
+2026-04-14 22:02:08 - vacancy_search - DEBUG - get_vacancies:94 - Достигнут последняя страница (0)
+2026-04-14 22:02:08 - vacancy_search - INFO - get_vacancies:102 - Загружено 1 вакансий для компании 123
