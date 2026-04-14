@@ -1,5 +1,1 @@
-# Проект vacancy-search
-
-## Описание:
-
-Проект vacancy-search - это консольное приложение на Python для сбора и анализа вакансий с сайта hh.ru.
+# vacancy-search
