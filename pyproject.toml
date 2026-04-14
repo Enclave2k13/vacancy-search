@@ -1,0 +1,30 @@
+[project]
+name = "vacancy-search"
+version = "0.1.0"
+description = "Проект для сбора и анализа вакансий с hh.ru"
+authors = [
+    {name = "Nikita Komissarov",email = "enclave13@yandex.ru"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "psycopg2-binary>=2.9.0",
+    "python-dotenv>=1.0.0",
+    "curl_cffi>=0.5.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+    {include = "src"}
+]
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)",
+    "pytest-cov (>=7.1.0,<8.0.0)"
+]
